@@ -1,0 +1,181 @@
+﻿
+        public string getNowTime()
+        {
+            //此function會傳回符合資料庫定義的時間格式的現在時間
+            string strYear, strMonth, strDay, strHour, strMin, strSec;
+
+            //get year
+            strYear = DateTime.Now.Year.ToString();
+            //get month
+            if (DateTime.Now.Month > 9)
+            {
+                strMonth = DateTime.Now.Month.ToString();
+            }
+            else
+            {
+                strMonth = "0" + DateTime.Now.Month.ToString();
+            }
+            //get day
+            if (DateTime.Now.Day > 9)
+            {
+                strDay = DateTime.Now.Day.ToString();
+            }
+            else
+            {
+                strDay = "0" + DateTime.Now.Day.ToString();
+            }
+            //get Hour
+            if (DateTime.Now.Hour > 9)
+            {
+                strHour = DateTime.Now.Hour.ToString();
+            }
+            else
+            {
+                strHour = "0" + DateTime.Now.Hour.ToString();
+            }
+            //get min
+            if (DateTime.Now.Minute > 9)
+            {
+                strMin = DateTime.Now.Minute.ToString();
+            }
+            else
+            {
+                strMin = "0" + DateTime.Now.Minute.ToString();
+            }
+            //get sec
+            if (DateTime.Now.Second > 9)
+            {
+                strSec = DateTime.Now.Second.ToString();
+            }
+            else
+            {
+                strSec = "0" + DateTime.Now.Second.ToString();
+            }
+
+            string strReturn = strYear + strMonth + strDay + strHour + strMin + strSec;
+            return strReturn;
+        }
+
+
+
+        /// <summary>
+        /// 取得某問卷在Paper_Content中最高的問題順序。
+        /// </summary>
+        /// <param name="strPaperID"></param>
+        /// <returns></returns>
+        public int getPaperContentMaxSeq(string strPaperID)
+        {
+            int intReturn = 0;
+
+            string strSQL = "SELECT MAX(sSeq) AS 'sSeq' FROM Paper_Content WHERE cPaperID = '" + strPaperID + "' ";
+            
+	    /*KeyPoint*/
+            //You can use your own way to execute the SQL command to get the data from DB
+	    DataSet dsMaxSeq = sqldb.getDataSet(strSQL);
+            if (dsMaxSeq.Tables[0].Rows.Count > 0)
+            {
+                try
+                {
+                    intReturn = Convert.ToInt32(dsMaxSeq.Tables[0].Rows[0]["sSeq"]);
+                }
+                catch
+                {
+                }
+            }
+            dsMaxSeq.Dispose();
+            return intReturn;
+        }
+
+
+
+         /// <summary>
+        /// 將值存入Paper_QuestionContent
+        /// </summary>
+        /// <param name="strPaperID"></param>
+        /// <param name="strQID"></param>
+        /// <param name="strStandardScore"></param>
+        /// <param name="strQuestionType"></param>
+        /// <param name="strQuestionMode"></param>
+        /// <param name="strSeq"></param>
+        public void SaveToQuestionContent(string strPaperID, string strQID, string strStandardScore, string strQuestionType, string strQuestionMode, string strSeq)
+        {
+            string strSQL = "SELECT * FROM Paper_Content WHERE cPaperID = '" + strPaperID + "' AND cQID = '" + strQID + "' ";
+            /*KeyPoint*/
+            //You can use your own way to execute the SQL command to get the data from DB
+	    DataSet dsQuestion = sqldb.getDataSet(strSQL);
+            if (dsQuestion.Tables[0].Rows.Count > 0)
+            {
+                //Update
+                strSQL = " UPDATE Paper_Content SET  sStandardScore = '" + strStandardScore + "' , cQuestionType = '" + strQuestionType + "' , cQuestionMode = '" + strQuestionMode + "' , sSeq = '" + strSeq + "' " +
+                    " WHERE cPaperID = '" + strPaperID + "' AND cQID = '" + strQID + "' ";
+
+
+                
+            }
+            else
+            {
+                //Insert
+                strSQL = " INSERT INTO Paper_Content (cPaperID , cQID , sStandardScore , cQuestionType , cQuestionMode , sSeq) " +
+                    " VALUES ('" + strPaperID + "' , '" + strQID + "'  ,'" + strStandardScore + "'  ,'" + strQuestionType + "'  ,'" + strQuestionMode + "'  ,'" + strSeq + "')";
+            }
+
+            /*write SQL to file to 
+            //to inspect the SQL cmd when something went wrong with SQL cmd 
+            // Create a file to write to.              
+            //File.WriteAllText("D:/Hints_on_60/Hints/App_Code/AuthoringTool/CaseEditor/Paper/updateSimilarIDSQL.txt", strSQL);
+            */
+
+            dsQuestion.Dispose();
+            try
+            {
+                /*KeyPoint*/
+                //You can use your own way to execute the SQL command here
+                sqldb.ExecuteNonQuery(strSQL);
+            }
+            catch
+            {
+            }
+        }
+
+
+
+/*KeyPoint*/ //You only need to call this Main function to Create FillOutBlank Question In Hints
+//Main function of creating FillOutBlank Question In Hints automatically
+//The parameters of this function: 
+//1. exam paper ID
+//2. user ID in Hints system e.g.,'tea1'
+public void autoCreateFillOutBlankQuestionInHints(string strPaperID , string strUserID)
+{
+//Compose Answer ID
+string strAID = strUserID + "_A_" + getNowTime();
+
+//Compose QuestionID
+string strQID = strUserID + "_Q_" + getNowTime();
+
+//store the question description and correct answer to the question to DB.
+clsFillOutBlankQuestion fillOutBlankQuestion = new clsFillOutBlankQuestion();
+
+//Question description and correct answer are left empty for IRS 3DBuilder FillOutBlank question.
+string strQTextContent="";
+string strATextContent="";
+string strGroupDivisionID="";
+string strQuestionMode="General";
+
+/*KeyPoint!!!*/
+//You can hard-code strGroupID="Group_AnatomyIRS3DBuilder"
+string strGroupID="Group_AnatomyIRS3DBuilder";
+
+fillOutBlankQuestion.saveQuestionAnswer(strQID, strAID, strQTextContent, strATextContent, strUserID, strPaperID, strGroupDivisionID, strGroupID, strQuestionMode,null);
+
+
+
+
+//To know how many questions are there in the exam paper now.
+string strSeq = Convert.ToString(getPaperContentMaxSeq(strPaperID) + 1);
+
+/*KeyPoint!!!*/  //You need to provide the strPaperID here.
+//Add the Essay type question that is just created to the exam paper.
+
+string strQuestionType= "10";//the cQuestionType will be 10 for FillOutBlank question.
+SaveToQuestionContent(strPaperID, strQID, "0", strQuestionType, "General", strSeq);     
+}

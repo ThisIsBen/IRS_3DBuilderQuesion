@@ -1,0 +1,50 @@
+            
+            /*KeyPoint!!!*/
+            //get the QID from URL parameter as the target file name if the instructor wants to check the contnet of the existing AI Type question.
+            //You can hard-code the organXMLPath = "SceneFile_Knee_ex.xml"
+            //"SceneFile_Knee_ex.xml"contains all the organs in Knee
+            //organXMLPath will be determined by the body part chosen by the teacher.
+            organXMLPath = "SceneFile_Knee_ex.xml";
+
+            //clear the ajax cache to read the latest content from the organ xml file
+            //if we don't clear the cache, ajax will return an old version of the organ xml file cached in the memory.
+            clearAjaxCache();
+
+
+           $.ajax({
+                type: "GET",
+                url: organXMLPath,
+                dataType: "xml",
+                success: function (xml) {
+
+                    /*KeyPoint!!!*/
+                    //store the organs Names retrieved from organ XML file
+                    //You can list all the content in this array,organNameArray, to let the teacher pick the organ name that he wants to use as the correct answer of the IRS 3DBuilder Essay Type question  
+                    var organNameArray= []
+
+                    
+
+                    $(xml).find('Organ').each(function () {
+
+                          $questionOrganName = $(this).find("Name");
+
+                          //push to organNameArray
+                          organNameArray.push($questionOrganName.text());
+                
+                    });
+
+
+                   
+
+                  	
+                }
+
+            });
+
+
+        //clear the ajax cache to read the latest content from the organ xml file
+        function clearAjaxCache() {
+            $.ajaxSetup({
+                cache: false
+            });
+        }

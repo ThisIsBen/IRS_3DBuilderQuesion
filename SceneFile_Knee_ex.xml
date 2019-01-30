@@ -1,0 +1,394 @@
+
+<Scene>
+<Organ_Region>
+<Region_Name>D:\Mirac3DBuilder\ProjectFolder\VHBMale_ALLProject\1161-1450\1161-1450.xml</Region_Name>
+</Organ_Region>
+<Organs>
+<Organ>
+<Name>Adductor magnus</Name>
+<Number>1</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Adductor magnus\Adductor magnus.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Anterior Cruciate Ligament</Name>
+<Number>2</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Anterior Cruciate Ligament\Anterior Cruciate Ligament.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Extensor digitorum longus</Name>
+<Number>3</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Extensor digitorum longus\Extensor digitorum longus.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Fibularis longus</Name>
+<Number>4</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Fibularis longus\Fibularis longus.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Gastrocnemius</Name>
+<Number>5</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Gastrocnemius\Gastrocnemius.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Gracilis</Name>
+<Number>6</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Gracilis\Gracilis.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Iliotibial tract</Name>
+<Number>7</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Iliotibial tract\Iliotibial tract.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Infra-patellar fat (IPF)</Name>
+<Number>8</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Infra-patellar fat (IPF)\Infra-patellar fat (IPF).mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Joint Capsule</Name>
+<Number>9</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Joint Capsule\Joint Capsule.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Lateral Meniscus</Name>
+<Number>10</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Lateral Meniscus\Lateral Meniscus.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Left Femur</Name>
+<Number>11</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Left Femur\Left Femur.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Left Popliteal Vein</Name>
+<Number>12</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Left Popliteal Vein\Left Popliteal Vein.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Left biceps femoris</Name>
+<Number>13</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Left biceps femoris\Left biceps femoris.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Left fibula</Name>
+<Number>14</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Left fibula\Left fibula.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Left patella</Name>
+<Number>15</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Left patella\Left patella.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Left tibia</Name>
+<Number>16</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Left tibia\Left tibia.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Medial Meniscus</Name>
+<Number>17</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Medial Meniscus\Medial Meniscus.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Muscle fibularis brevis</Name>
+<Number>18</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Muscle fibularis brevis\Muscle fibularis brevis.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Oblique Popliteal Ligament</Name>
+<Number>19</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Oblique Popliteal Ligament\Oblique Popliteal Ligament.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Patellar ligament</Name>
+<Number>20</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Patellar ligament\Patellar ligament.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Plantaris</Name>
+<Number>21</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Plantaris\Plantaris.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Popliteus</Name>
+<Number>22</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Popliteus\Popliteus.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Posterior Cruciate Ligament</Name>
+<Number>23</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Posterior Cruciate Ligament\Posterior Cruciate Ligament.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Rectus femoris</Name>
+<Number>24</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Rectus femoris\Rectus femoris.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Sartorius</Name>
+<Number>25</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Sartorius\Sartorius.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Semimembranosus</Name>
+<Number>26</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Semimembranosus\Semimembranosus.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Semitendinosus</Name>
+<Number>27</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Semitendinosus\Semitendinosus.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Skin</Name>
+<Number>28</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Skin\Skin.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Soleus</Name>
+<Number>29</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Soleus\Soleus.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Synovial space</Name>
+<Number>30</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Synovial space\Synovial space.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Tibialis anterior</Name>
+<Number>31</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Tibialis anterior\Tibialis anterior.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Tibialis posterior</Name>
+<Number>32</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Tibialis posterior\Tibialis posterior.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Vastus intermedius</Name>
+<Number>33</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vastus intermedius\Vastus intermedius.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Vastus lateralis</Name>
+<Number>34</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vastus lateralis\Vastus lateralis.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Vastus medialis</Name>
+<Number>35</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vastus medialis\Vastus medialis.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>0</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>(1166,632,263)</Name>
+<Number>36</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vessel\Region Growth Data\(1166,632,263)\(1166,632,263).mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>1</Cut>
+</Organ>
+<Organ>
+<Name>(1183,372,2)</Name>
+<Number>37</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vessel\Region Growth Data\(1183,372,2)\(1183,372,2).mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>(1210,614,31)</Name>
+<Number>38</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vessel\Region Growth Data_Bone\(1210,614,31)\(1210,614,31).mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>(1280,511,98)</Name>
+<Number>39</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vessel\Region Growth Data_Bone\(1280,511,98)\(1280,511,98).mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>(1283,496,90)</Name>
+<Number>40</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vessel\Region Growth Data_Bone\(1283,496,90)\(1283,496,90).mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>(1309,666,117)</Name>
+<Number>41</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vessel\Region Growth Data_Bone\(1309,666,117)\(1309,666,117).mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>(1329,543,99)</Name>
+<Number>42</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vessel\Region Growth Data_Bone\(1329,543,99)\(1329,543,99).mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>(1348,584,95)</Name>
+<Number>43</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vessel\Region Growth Data_Bone\(1348,584,95)\(1348,584,95).mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>103_A</Name>
+<Number>44</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Vessel\Region Growth Data_Bone\103_A\103_A.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>fibular collateral ligament</Name>
+<Number>45</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\fibular collateral ligament\fibular collateral ligament.mcod</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Common Fibular Nerve-TE</Name>
+<Number>46</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Common Fibular Nerve\Common Fibular Nerve-TE.extrusiond</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Left Popliteal Artery-TE</Name>
+<Number>47</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Left Popliteal Artery\Left Popliteal Artery-TE.extrusiond</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+<Organ>
+<Name>Tibial nerve-TE</Name>
+<Number>48</Number>
+<Path>D:\Mirac3DBuilder\VHBFolder\1161-1450\Tibial nerve\Tibial nerve-TE.extrusiond</Path>
+<Matrix>-0.556378 -0.186951 -0.809625 0.000000 -0.313946 0.949434 -0.003489 0.000000 0.769338 0.252238 -0.586937 0.000000 587.210632 50.322800 556.773071 1.000000 </Matrix>
+<Visible>1</Visible>
+<Cut>0</Cut>
+</Organ>
+</Organs>
+<Alpha>14</Alpha>
+<Beta>54</Beta>
+</Scene>

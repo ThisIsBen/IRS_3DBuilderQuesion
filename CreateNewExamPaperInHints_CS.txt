@@ -1,0 +1,55 @@
+	    
+            /*KeyPoint!!!*/
+	    //The following SQL Command should be run in 'NewVersionHintsDB'   
+            //The parameter of this function ,'strUserID', is the the user ID in Hints system  e.g., 'tea1','stu1' 
+            private void CreateNewExamPaperInHints(string strUserID)
+            {
+
+		string strNowTime = DateTime.Now.ToString("yyyyMMddHHmmss");
+
+		
+		string strCaseID = strUserID + "Case" + strNowTime;   //CaseID 
+
+
+
+
+		string strSectionName = "";//考卷名稱(Paper_CaseDivisionSection資料表欄位名稱為cSectionName)
+
+                /*KeyPoint!!!*/  //Set the name of the new exam paper here.
+                strSectionName = strCourseName + "Anatomy IRS quiz(" + strNowTimeName + ")";
+
+		/*KeyPoint!!!*/		
+		string strPaperID = strUserID + DateTime.Now.ToString("yyyyMMddHHmmss");           //PaperID
+
+
+                /*KeyPoint!!!*/
+		//You can use your own way to execute the SQL command
+		clsAllSystemDB allSystemDB = new clsAllSystemDB();
+                
+
+                //---------仿照ORCS出考卷作法---------------
+                //將取得的CaseID、PaperID和考卷名稱插入Paper_CaseDivisionSection資料表
+                string strSQL = " INSERT INTO Paper_CaseDivisionSection (cCaseID , sClinicNum , cSectionName , cPaperID) " +
+                   " VALUES ('" + strCaseID + "' , '1'  ,'" + strSectionName + "' , '" + strPaperID + "') ";
+                
+		
+	        /*KeyPoint!!!*/
+		//You can use your own way to execute the SQL command
+		allSystemDB.ExecuteNonQuery(strSQL);
+                
+
+
+                //新增到資料庫
+                strSQL = " INSERT Paper_Header (cPaperID , cPaperName , cTitle , cObjective , cEditMethod ,  cGenerationMethod , cPresentMethod , sTestDuration , cPresentType) " +
+                    " VALUES('" + strPaperID + "' , '" + strSectionName + "' , '" + strSectionName + "' , 'General' , 'Author' , 'Edit' , 'All' , '0' , '10') ";
+                
+
+		/*KeyPoint!!!*/
+		//You can use your own way to execute the SQL command
+		allSystemDB.ExecuteNonQuery(strSQL);
+                //------------------------------------------
+                
+            }
+
+
+
