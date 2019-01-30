@@ -144,7 +144,7 @@
 //The parameters of this function: 
 //1. exam paper ID
 //2. user ID in Hints system e.g.,'tea1'
-public void autoCreateFillOutBlankQuestionInHints(string strPaperID , string strUserID)
+public void autoCreateFillOutBlankQuestionInHints(string strPaperID , string strUserID, bool bWithSelectionOptions=false, string strDomain="")
 {
 //Compose Answer ID
 string strAID = strUserID + "_A_" + getNowTime();
@@ -165,7 +165,7 @@ string strQuestionMode="General";
 //You can hard-code strGroupID="Group_AnatomyIRS3DBuilder"
 string strGroupID="Group_AnatomyIRS3DBuilder";
 
-fillOutBlankQuestion.saveQuestionAnswer(strQID, strAID, strQTextContent, strATextContent, strUserID, strPaperID, strGroupDivisionID, strGroupID, strQuestionMode,null);
+fillOutBlankQuestion.saveQuestionAnswer(strQID, strAID, strQTextContent, strATextContent, strUserID, strPaperID, strGroupDivisionID, strGroupID, strQuestionMode,null,bWithSelectionOptions, strDomain);
 
 
 
